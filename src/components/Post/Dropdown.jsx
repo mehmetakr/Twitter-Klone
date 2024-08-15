@@ -23,7 +23,7 @@ const Dropdown = ({handleDelete ,setiseditmode}) => {
 
             checkbox.current.checkded = false;
             setiseditmode(true)}}>
-              <svg
+               <svg
                 stroke-linejoin="round"
                 stroke-linecap="round"
                 stroke-width="2"
@@ -34,12 +34,9 @@ const Dropdown = ({handleDelete ,setiseditmode}) => {
                 width="14"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle r="4" cy="7" cx="9"></circle>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                <polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon>
               </svg>
-              <span>Colloborators</span>
+              <span>Düzenle</span>
             </button>
           </li>
           <li>
